@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import CustomBarChart from "../components/CustomBarChart";
 import { useNavigate } from "react-router-dom";
 import Plasma from "../components/Plasma";
+import profile from "../assets/profile-pic-2.webp"
 
 const buttons = [
   "Edit profile",
@@ -58,7 +59,7 @@ const ProfilePage = () => {
       {/* Top Navigation Section */}
       <section className="flex flex-col sm:flex-row mt-24 px-6 sm:px-10 py-10 items-center gap-6 w-full font-bold relative z-10">
         <img
-          src="../public/profile-pic-2.webp"
+          src={profile}
           alt="profile-pic"
           className="cursor-pointer h-[80px] sm:h-[100px] w-[80px] sm:w-[100px] rounded-full object-cover"
         />
