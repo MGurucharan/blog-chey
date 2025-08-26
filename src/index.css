@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import './fonts.css';
+
+body
+{
+    background-color: #0e100f;
+    font-family: 'mori',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+

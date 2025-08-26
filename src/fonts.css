@@ -1,0 +1,7 @@
+/* src/fonts.css */
+@font-face {
+  font-family: 'Mori';
+  src: url('/public/fonts/Mori/Mori-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
