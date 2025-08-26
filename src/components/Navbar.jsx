@@ -1,6 +1,8 @@
 
 import { useState } from "react"
 import { NavLink } from "react-router-dom"
+import blogchey from "../assets/blogchey.png"
+import more from "../assets/more.png"
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false)
@@ -19,7 +21,7 @@ const Navbar = () => {
           <NavLink to="/" className="focus:outline-none">
             <img
               className="font-semibold object-contain w-35 h-35"
-              src="/blogchey.png"
+              src={blogchey}
               alt="logo"
             />
           </NavLink>
@@ -61,7 +63,7 @@ const Navbar = () => {
         >
           <img
             className="cursor-pointer w-6 h-6"
-            src="/more.png"
+            src={more}
             alt="Menu"
           />
         </button>
