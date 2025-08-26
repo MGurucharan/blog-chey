@@ -8,7 +8,7 @@ import ProfilePage from "./pages/ProfilePage";
 import React, { useState, useEffect } from "react";
 import BlogPage from "./pages/BlogPage";
 import OpenAiTest from "./components/OpenAiTest"
-
+import Plasma from "./components/Plasma";
 
 const App = () => {
 //   const [items, setItems] = useState([]);
