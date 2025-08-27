@@ -24,7 +24,6 @@ const App = () => {
 
   return (
     <>
-      <Navbar/>
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/create" element={<Create/>}/>
@@ -32,6 +31,7 @@ const App = () => {
             <Route path="/update/:id" element={<UpdatePage/>}/>
             <Route path="/profile" element={<ProfilePage/>}/>
             <Route path="/blogpage/:id" element={<BlogPage/>}/>
+            <Route path="*" element={<Home />} />
         </Routes>
     </>
   );
