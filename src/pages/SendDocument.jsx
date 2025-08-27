@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import Plasma from "../components/Plasma";
+import arrow from "../assets/arrow.png"
 
 const SendDocument = () => {
   const [blogs, setBlogs] = useState([]);
@@ -120,7 +121,7 @@ const SendDocument = () => {
                               Delete
                             </button>
                             <img
-                              src="../public/arrow.png"
+                              src={arrow}
                               alt="open"
                               className="w-[20px] cursor-pointer"
                               onClick={() => {
