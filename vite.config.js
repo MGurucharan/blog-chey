@@ -25,5 +25,5 @@ export default defineConfig({
       }
     },
   },
-  base:"/blog-chey/"
+  base: process.env.VITE_BASE_PATH || "/blog-chey/"
 });
